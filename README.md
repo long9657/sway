@@ -24,7 +24,7 @@ https://raw.githubusercontent.com/EndeavourOS-Community-Editions/sway/main/setup
 
 Alternatively, you can add Sway after the installation is complete by cloning the repo and running the `sway-install.sh` script.
 
-    git clone https://github.com/EndeavourOS-Community-Editions/sway.git
+    git clone https://github.com/long9657/sway.git
 
     cd sway
 
