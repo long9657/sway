@@ -3,7 +3,7 @@ username="$1"
 
 # Clone the repo
 echo "Cloning the EOS Community Sway repo..."
-git clone https://github.com/EndeavourOS-Community-Editions/sway.git
+git clone https://github.com/long9657/sway.git
 
 # Check if nvidia-inst is installed
 # If it is, do the Nvidia stuff
