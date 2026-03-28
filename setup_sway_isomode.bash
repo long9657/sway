@@ -7,7 +7,7 @@ git clone https://github.com/long9657/sway.git
 
 # Check if nvidia-inst is installed
 # If it is, do the Nvidia stuff
-if pacman -Qq nvidia-inst 2>/dev/null | grep -q .; then
+if true; then
     echo "Adding the --unsupported-gpu flag to the sway call in greetd.conf..."
     sed -i 's|sway -c|sway --unsupported-gpu -c|' sway/etc/greetd/greetd.conf
     echo "Adding a custom desktop file for Nvidia sessions..."
