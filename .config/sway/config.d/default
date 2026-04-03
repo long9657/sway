@@ -33,7 +33,7 @@ set $powermenu ~/.config/sway/scripts/power_menu.sh
     bindsym $mod+q kill
 
     # Start your launcher
-    bindsym $mod+d exec $launcher
+    bindsym $mod+d exec DISPLAY=:0 $launcher
 
     # Menu
     bindsym $mod+Shift+d exec $menu
