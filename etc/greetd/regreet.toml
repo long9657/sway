@@ -3,7 +3,7 @@
 
 [background]
 # Path to the background image
-path = "/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"
+path = "home/long/dotfiles/wezterm/.config/wezterm/bg/d.jpg
 
 # How the background image covers the screen if the aspect ratio doesn't match
 # Available values: "Fill", "Contain", "Cover", "ScaleDown"
