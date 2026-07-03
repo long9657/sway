@@ -36,6 +36,8 @@ exec nm-applet --indicator
 # Firewall Applet
 exec sleep 2 && firewall-applet
 
+exec sleep 2 && blueman-applet
+
 # Welcome App
 # exec eos-welcome --startdelay=3
 
