@@ -133,6 +133,7 @@ set $powermenu ~/.config/sway/scripts/power_menu.sh
 
     # Toggle between tiling and floating mode
     bindsym $mod+Shift+space floating toggle
+    bindsym $mod+m floating enable, resize set width 60 ppt height 100 ppt, move position center
 
     # Swap focus between the tiling area and the floating area
     bindsym $mod+space focus mode_toggle
